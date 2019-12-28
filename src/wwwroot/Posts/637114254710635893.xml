@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<post>
+  <title>RPi 4 K8s multi-master cluster using Ubuntu and Kubespray</title>
+  <slug>rasberry-4-pi-kubernetes-cluster-multi-master-ubuntu-kubespray</slug>
+  <pubDate>2019-12-08T18:17:12.319Z</pubDate>
+  <lastModified>2019-12-18T12:28:35.193Z</lastModified>
+  <excerpt>Create a high availability raspberry pi 4 kubernetes cluster based on ubuntu and deployed using kubespray.</excerpt>
+  <content>&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&lt;span style="font-family: Segoe UI VSS (Regular), Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Ubuntu, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;"&gt;trying to push raspberry pi k8s cluster one step further&lt;/span&gt;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&lt;span style="font-family: Segoe UI VSS (Regular), Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Ubuntu, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;"&gt;&lt;span style="color: #222222; font-family: arial, sans-serif; font-size: 16px;"&gt;Ubuntu 18.04 LTS will be supported for 5 years until&amp;nbsp;&lt;/span&gt;&lt;strong style="color: #222222; font-family: arial, sans-serif; font-size: 16px;"&gt;April 2023&lt;/strong&gt;&lt;span style="color: #222222; font-family: arial, sans-serif; font-size: 16px;"&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&lt;span style="font-family: Segoe UI VSS (Regular), Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Ubuntu, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;"&gt;kubesoray doesn&amp;rsquo;t work with arm32/armhf packages like calico are not compiled and etcd has experimental support in arm32, so better to use arm64.&lt;/span&gt;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&lt;span style="font-family: Segoe UI VSS (Regular), Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Ubuntu, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;"&gt;Raspbian in 64 bits exist but is a bit experimental and not officially suported by kubespray&lt;/span&gt;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;&lt;span style="font-family: Segoe UI VSS (Regular), Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Ubuntu, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;"&gt;Download Ubuntu 18.03 unofficial for RPi 4:&amp;nbsp;&lt;/span&gt;&lt;a style="background-color: transparent;" href="https://jamesachambers.com/raspberry-pi-4-ubuntu-server-desktop-18-04-3-image-unofficial/"&gt;https://jamesachambers.com/raspberry-pi-4-ubuntu-server-desktop-18-04-3-image-unofficial/&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</content>
+  <ispublished>true</ispublished>
+  <categories>
+    <category>raspberry-pi</category>
+    <category>kubernetes</category>
+    <category>kubespray</category>
+  </categories>
+  <comments></comments>
+</post>

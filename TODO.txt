@@ -1,0 +1,15 @@
+- quitar social media que no se utiliza aun
+- poner el link de github en "forked" del footer
+- Quitar del footer login etc i ponerlo en otra pagina
+- probar en navegador diferentes tamanyos y arrelgar con media querys
+- linkar menu a paginas nuevas
+- mover Css a fichero css desde html
+
+
+- comparar donde se han hecho los cambios y moverlos para minimo impacto si quiero hacer un pull de la web original
+- perfeccionar foto y hacerla mas pequenya
+- hacer update bug patches de la web original del blog
+- pensar en un CD/CI
+- hacer descripcion del blog en pagina GitHub
+- a la larga ampliar la zona de escritura mirando que no rompa las mediaqueries originales y pete el diseno en otros formatos tipo movil
+- ir haciendo post k8s kubespray pi 4
