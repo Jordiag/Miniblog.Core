@@ -5,6 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_Layout.cshtml" />
+    <Content Remove="Views\Shared\_SocialSharing.cshtml" />
+    <Content Remove="wwwroot\css\abovethefold.scss" />
+    <Content Remove="wwwroot\css\belowthefold.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_SocialSharing.cshtml" />
+    <None Include="wwwroot\css\abovethefold.scss" />
+    <None Include="wwwroot\css\belowthefold.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Azure.ImageOptimizer" Version="1.1.0.39" />
     <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.250" />
     <PackageReference Include="LigerShark.WebOptimizer.Sass" Version="3.0.40-beta" />

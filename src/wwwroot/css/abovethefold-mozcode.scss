@@ -71,6 +71,19 @@ body {
     }
 }
 
+.header-banner {
+    width: 700px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-image: url(/img/header-background.jpg);
+    background-size: 39em;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;

@@ -13,7 +13,7 @@
     <meta name="description" content="@ViewData["Description"]" />
 
     <link rel="preload" href="~/js/site.js" as="script" />
-    <link rel="preload" href="~/css/belowthefold.scss" as="style" />
+    <link rel="preload" href="~/css/belowthefold-mozcode.scss" as="style" />
     <noscript><link rel="stylesheet" href="~/css/belowthefold-mozcode.scss" /></noscript>
     @RenderSection("Preload", required: false)
     <link rel="stylesheet" href="~/css/abovethefold-mozcode.scss" inline />
@@ -39,7 +39,8 @@
     @RenderSection("Head", required: false)
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
-    <div style="width: 160px;position: absolute;left: 0;right: 0;margin-left: auto;margin-right: auto;margin-top: 10px"><img src="~/img/jordi.png" alt="Jordi" /></div>
+    <div class="header-banner"></div>
+    <div style="width: 145px;position: absolute;left: 0;right: 0;margin-left: auto;margin-right: auto;margin-top: 17px"><img src="~/img/jordi.png" alt="Jordi" /></div>
     <header class="siteheader">
         <div class="container">
             <div style="float: left;top: 120px; left: 0px; position: relative">
@@ -47,7 +48,7 @@
                 <p itemprop="name" style="font-weight: bold"><a href="~/">@manifest.ShortName</a></p>
                 <span itemprop="author">@settings.Value.Owner</span>
             </div>
-            <div style="float: right; top: 20px; position: relative">
+            <div style="float: right; top: 138px; position: relative">
                 <ul class="social-navigation-menu">
                     <li>
                         <a href="https://twitter.com/jordimoz" target="_blank"><i class="b1-icon-social-twitter"></i></a>
@@ -69,7 +70,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu-bar" style="float: right; top: 110px; position: relative">
+            <div class="menu-bar" style="float: right; top: 144px; position: relative">
                 <nav>
                     <ul><li>Blog</li><li>About<li>Chanlabs</li></ul>
                 </nav>
@@ -86,32 +87,15 @@
 
     <footer class="sitefooter">
         <div class="container">
-            <nav>
-                <ul>
-                    @{
-                        string path = Context.Request.Path;
-
-                        if (User.Identity.IsAuthenticated)
-                        {
-                            <li><a asp-controller="Blog" asp-action="Edit">New post</a></li>
-                            <li><a href="~/logout/" title="Sign out as administrator">Sign out</a></li>
-                        }
-                        else
-                        {
-                            <li><a href="~/login/?returnUrl=@path" rel="nofollow" title="Sign in as administrator">Sign in</a></li>
-                        }
-                    }
-                </ul>
-            </nav>
             <p>
                 &copy; 2019 Jordi Arquimbau - Blog | Handmade from London, UK | Powered by a <a href="https://github.com/Jordiag/Miniblog.Core" rel="noopener noreferrer" target="_blank">forked version</a> of <a href="https://github.com/madskristensen/Miniblog.Core" rel="noopener noreferrer" target="_blank">Miniblog.Core</a>
-</p>
+            </p>
         </div>
     </footer>
 
     <!-- This lazy loads the stylesheet in a non-render blocking way -->
-    <link rel="preload" href="~/css/belowthefold.scss" as="style" />
-    <noscript><link rel="stylesheet" href="~/css/belowthefold.scss" /></noscript>
+    <link rel="preload" href="~/css/belowthefold-mozcode.scss" as="style" />
+    <noscript><link rel="stylesheet" href="~/css/belowthefold-mozcode.scss" /></noscript>
 
     <script src="~/js/site.js" async defer></script>
     <script src="~/js/highlight.pack.js"></script>
