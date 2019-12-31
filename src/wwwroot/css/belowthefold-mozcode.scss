@@ -18,11 +18,8 @@
     }
 }
 
-a:focus,
-a:active,
-input:focus,
-textarea:focus {
-    outline: 2px solid lighten($link_color, 20%);
+a:visited {
+    outline: none;
 }
 
 noscript p {
@@ -94,7 +91,7 @@ noscript p {
     width: 100%;
     background-color: #111a44;
     color: white;
-    height: $footer_height;
+    height: 40px;
     font-size: .9em;
 
     .container {
@@ -130,215 +127,6 @@ noscript p {
         width: 100%;
         font-size: .9em;
     }
-}
-.social-navigation-menu li a i {
-    font-family: 'blockoneicons' !important;
-    font-style: normal;
-    color: #717F99;
-}
-
-.social-navigation-menu li {
-    margin-left: 0.625rem;
-    list-style: none;
-    display: list-item;
-    float: left;
-    list-style: none;
-}
-
-.menu-bar ul li {
-    display: list-item;
-    float: left;
-    list-style: none;
-    margin-left: 0.725rem;
-    cursor: pointer;
-}
-
-.menu-bar ul li:hover{
-    font-weight: bold;
-}
-
-.social-navigation-menu li a i:hover {
-    color: #091c42;
-}
-
-.b1-icon-outline-github:before {
-    content: "\e91a";
-}
-
-.b1-icon-arrow-short-left:before {
-    content: "\e916";
-}
-
-.b1-icon-arrow-short-right:before {
-    content: "\e917";
-}
-
-.b1-icon-glyph-next:before {
-    content: "\e915";
-}
-
-.b1-icon-chevron-right:before {
-    content: "\e914";
-}
-
-.b1-icon-nav-arrow-right:before {
-    content: "\e912";
-}
-
-.b1-icon-nav-arrow-left:before {
-    content: "\e913";
-}
-
-.b1-icon-glyph-search-alt:before {
-    content: "\e90f";
-    position: relative;
-    top: .2em;
-}
-
-.b1-icon-glyph-volume-slash:before {
-    content: "\e910";
-}
-
-.b1-icon-glyph-volume-up:before {
-    content: "\e911";
-}
-
-.b1-icon-glyph-hashtag:before {
-    content: "\e90e";
-}
-
-.b1-icon-glyph-sync:before {
-    content: "\e90d";
-}
-
-.b1-icon-triangle-down:before {
-    content: "\e90c";
-}
-
-.b1-icon-social-rss:before {
-    content: "\e90b";
-    position: relative;
-    right: -.0625em;
-}
-
-.b1-icon-glyph-envelope:before {
-    content: "\e90a";
-}
-
-.b1-icon-glyph-print:before {
-    content: "\e908";
-}
-
-.b1-icon-glyph-share:before {
-    content: "\e909";
-}
-
-.b1-icon-social-instagram:before {
-    content: "\e907";
-}
-
-.b1-icon-social-github:before {
-    content: "\e906";
-}
-
-.b1-icon-angle-left:before {
-    content: "\e904";
-}
-
-.b1-icon-angle-right:before {
-    content: "\e905";
-}
-
-.b1-icon-glyph-close:before {
-    content: "\e903";
-}
-
-.b1-icon-glyph-plus:before {
-    content: "\e900";
-}
-
-.b1-icon-arrow-down:before {
-    content: "\e901";
-}
-
-.b1-icon-arrow-up:before {
-    content: "\e902";
-}
-
-.b1-icon-arrow-left:before {
-    content: "\e826";
-}
-
-.b1-icon-arrow-right:before {
-    content: "\e827";
-}
-
-.b1-icon-askblockone:before {
-    content: "\e81f";
-}
-
-.b1-icon-blockone:before {
-    content: "\e815";
-}
-
-.b1-icon-check:before {
-    content: "\e825";
-}
-
-.b1-icon-clock:before {
-    content: "\e821";
-}
-
-.b1-icon-collaboration:before {
-    content: "\e819";
-}
-
-.b1-icon-eosio:before {
-    content: "\e805";
-}
-
-.b1-icon-eosvc:before {
-    content: "\e806";
-}
-
-.b1-icon-glyph-heart:before {
-    content: "\e807";
-}
-
-.b1-icon-glyph-search:before {
-    content: "\e817";
-}
-
-.b1-icon-graduation-cap:before {
-    content: "\e822";
-}
-
-.b1-icon-map-marker-alt:before {
-    content: "\e823";
-}
-
-.b1-icon-sitemap:before {
-    content: "\e824";
-}
-
-.b1-icon-social-facebook:before {
-    content: "\e80c";
-}
-
-.b1-icon-social-linkedin:before {
-    content: "\e80d";
-}
-
-.b1-icon-social-medium:before {
-    content: "\e80e";
-}
-
-.b1-icon-social-twitter:before {
-    content: "\e80f";
-}
-
-.b1-icon-social-youtube:before {
-    content: "\e81e";
 }
 
 @media print {

@@ -40,15 +40,16 @@
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
     <div class="header-banner"></div>
-    <div style="width: 145px;position: absolute;left: 0;right: 0;margin-left: auto;margin-right: auto;margin-top: 17px"><img src="~/img/jordi.png" alt="Jordi" /></div>
+    <div class="jordi-photo"><img src="~/img/jordi.png" alt="Jordi" /></div>
+    <div class="jordi-photo-border"></div>
     <header class="siteheader">
         <div class="container">
-            <div style="float: left;top: 120px; left: 0px; position: relative">
-                <img style="width: 40px; float: left;margin-left: -4px" src="~/img/icon180x180.png" alt="logo" />
-                <p itemprop="name" style="font-weight: bold"><a href="~/">@manifest.ShortName</a></p>
+            <div class="left-panel">
+                <img class="logo" src="~/img/icon180x180.png" alt="logo" />
+                <p itemprop="name" class="short-name"><a href="~/">@manifest.ShortName</a></p>
                 <span itemprop="author">@settings.Value.Owner</span>
             </div>
-            <div style="float: right; top: 138px; position: relative">
+            <div class="central-panel">
                 <ul class="social-navigation-menu">
                     <li>
                         <a href="https://twitter.com/jordimoz" target="_blank"><i class="b1-icon-social-twitter"></i></a>
@@ -59,25 +60,29 @@
                     <li>
                         <a href="https://www.linkedin.com/in/jordiarquimbau/" target="_blank"><i class="b1-icon-social-linkedin"></i></a>
                     </li>
+                    <!--
                     <li>
                         <a href="https://www.youtube.com/channel/UCbp95XP-0KUMjop_3z28wCw" target="_blank"><i class="b1-icon-social-youtube"></i></a>
                     </li>
+                    -->
                     <li>
                         <a href="https://github.com/Jordiag" target="_blank"><i class="b1-icon-social-github"></i></a>
                     </li>
                     <li>
-                        <a href="/rss" target="_blank"><i class="b1-icon-social-rss"></i></a>
+                        <a href="/feed/rss" target="_blank"><i class="b1-icon-social-rss"></i></a>
                     </li>
                 </ul>
             </div>
-            <div class="menu-bar" style="float: right; top: 144px; position: relative">
+            <!--
+            <div class="menu-bar">
                 <nav>
-                    <ul><li>Blog</li><li>About<li>Chanlabs</li></ul>
+                    <ul><li><a href="/About">About</a></li><li>|</li><li><a href="/">Blog</a></li></ul>
                 </nav>
             </div>
+            -->
         </div>
     </header>
-    <div style="margin: auto; width: 700px; height: 1px; background-color: #cccccc"></div>
+    <div class="separator"></div>
     <main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
         <noscript>
             <p class="container">Some features of this website do not work as expected when JavaScript is disabled</p>
