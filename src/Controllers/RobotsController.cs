@@ -84,7 +84,7 @@ namespace Miniblog.Core.Controllers
                 xml.WriteStartElement("service");
 
                 xml.WriteElementString("enginename", "Miniblog.Core");
-                xml.WriteElementString("enginelink", "http://github.com/madskristensen/Miniblog.Core/");
+                xml.WriteElementString("enginelink", "https://github.com/Jordiag/Miniblog.Core/");
                 xml.WriteElementString("homepagelink", host);
 
                 xml.WriteStartElement("apis");
@@ -129,9 +129,8 @@ namespace Miniblog.Core.Controllers
                         item.AddCategory(new SyndicationCategory(category));
                     }
 
-                    item.AddContributor(new SyndicationPerson("test@example.com", _settings.Value.Owner));
+                    item.AddContributor(new SyndicationPerson("blog@mozcode.com", _settings.Value.Owner));
                     item.AddLink(new SyndicationLink(new Uri(item.Id)));
-
                     await writer.Write(item);
                 }
             }
@@ -155,7 +154,7 @@ namespace Miniblog.Core.Controllers
             await atom.WriteTitle(_manifest.Name);
             await atom.WriteId(host);
             await atom.WriteSubtitle(_manifest.Description);
-            await atom.WriteGenerator("Miniblog.Core", "https://github.com/madskristensen/Miniblog.Core", "1.0");
+            await atom.WriteGenerator("Miniblog.Core", "https://github.com/Jordiag/Miniblog.Core", "1.0");
             await atom.WriteValue("updated", updated.ToString("yyyy-MM-ddTHH:mm:ssZ"));
             return atom;
         }
