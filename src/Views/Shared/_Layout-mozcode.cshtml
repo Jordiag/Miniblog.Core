@@ -55,16 +55,19 @@
                         <a href="https://twitter.com/jordimoz" target="_blank"><i class="b1-icon-social-twitter"></i></a>
                     </li>
                     <li>
+                        <a href="mailto:blog@mozcode.com" target="_blank"><i class="b1-icon-social-email"></i></a>
+                    </li>
+                    <li>
                         <a href="https://www.instagram.com/jordimoz" target="_blank"><i class="b1-icon-social-instagram"></i></a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/jordiarquimbau/" target="_blank"><i class="b1-icon-social-linkedin"></i></a>
                     </li>
                     <!--
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCbp95XP-0KUMjop_3z28wCw" target="_blank"><i class="b1-icon-social-youtube"></i></a>
-                    </li>
-                    -->
+    <li>
+        <a href="https://www.youtube.com/channel/UCbp95XP-0KUMjop_3z28wCw" target="_blank"><i class="b1-icon-social-youtube"></i></a>
+    </li>
+    -->
                     <li>
                         <a href="https://github.com/Jordiag" target="_blank"><i class="b1-icon-social-github"></i></a>
                     </li>
@@ -92,8 +95,18 @@
 
     <footer class="sitefooter">
         <div class="container">
+            @{ 
+                if (User.Identity.IsAuthenticated)
+                {
+                <ul>
+                    <li><a asp-controller="Blog" asp-action="Edit">New post</a></li>
+                    <li><a asp-controller="Blog" asp-action="Edit" asp-route-id="">New post</a></li>
+                    <li><a href="~/logout/" title="Sign out as administrator">Sign out</a></li>
+                </ul>
+                }
+            }
             <p>
-                &copy; 2019 Jordi Arquimbau - Blog | Handmade from London, UK | Powered by a <a href="https://github.com/Jordiag/Miniblog.Core" rel="noopener noreferrer" target="_blank">forked version</a> of <a href="https://github.com/madskristensen/Miniblog.Core" rel="noopener noreferrer" target="_blank">Miniblog.Core</a>
+                &copy; 2020 Jordi Arquimbau - Blog | Handmade from London, UK | Powered by a <a href="https://github.com/Jordiag/Miniblog.Core" rel="noopener noreferrer" target="_blank">forked version</a> of <a href="https://github.com/madskristensen/Miniblog.Core" rel="noopener noreferrer" target="_blank">Miniblog.Core</a>
             </p>
         </div>
     </footer>

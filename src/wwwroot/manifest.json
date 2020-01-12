@@ -1,7 +1,7 @@
 {
-  "name": "Mozcode - Jordi Arquimbau Blog - Software architecture, developmment, tips and crazy ideas",
+  "name": "Mozcode Blog - Software development, architecture and more",
   "short_name": "Mozcode",
-  "description": "A short description of the blog.",
+  "description": "Jordi Arquimbau blog about software, hardware, computer projects, ideas and tips.",
   "icons": [
     {
       "src": "/img/icon192x192.png",

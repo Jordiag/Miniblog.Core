@@ -3,11 +3,11 @@
   <title>10 Raspberry Pi 4 compact cluster hardware list</title>
   <slug>10-raspberry-pi-4-compact-cluster-hardware-list</slug>
   <pubDate>2020-01-12T17:34:18.858Z</pubDate>
-  <lastModified>2020-01-12T19:50:19.543Z</lastModified>
+  <lastModified>2020-01-12T22:44:15.989Z</lastModified>
   <excerpt>Hardware list to build a compact Raspberry Pi 4 cluster</excerpt>
-  <content>&lt;p&gt;Months ago I decided to build a Raspberry pi 4 cluster to try some distributed software projects on it. The main goal was to build it in a compact way and as cheap as possible. Due this is not a 5 minutes task I thought about to write a short post.&lt;/p&gt;
-&lt;p&gt;This post tries to save you a lot of time if you're looking for something similar pointing what and where to buy all the stuff required and have your Raspberry 4 cluster ready to mount.&lt;/p&gt;
-&lt;p&gt;I bought all the pieces mainly in two places E-Bay and AliExpress. Obviously it took two weeks to have all these pieces together after coming from UK and China.&lt;/p&gt;
+  <content>&lt;p&gt;Months ago I decided to build a Raspberry pi 4 cluster to try some distributed software projects on it. The main goal was to build it in a compact way and as cheap as possible. Due this is not a 5 minutes task I thought about writinga short post.&lt;/p&gt;
+&lt;p&gt;This post tries to save you time if you're looking for something similar pointing what and where to buy all the stuff required and have your Raspberry 4 cluster ready to mount.&lt;/p&gt;
+&lt;p&gt;I bought all the pieces mainly in two places EBay and AliExpress. Obviously it took two weeks to have all these pieces together after coming from UK and China.&lt;/p&gt;
 &lt;p&gt;This is the summary of the required parts:&lt;/p&gt;
 &lt;table style="border-collapse: collapse; width: 100%; height: 233px;" border="1"&gt;
 &lt;tbody&gt;
@@ -18,7 +18,7 @@
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
 &lt;td style="width: 33.3333%; height: 18px;"&gt;10 Raspberry Pi 4 (4Gb Ram)&lt;/td&gt;
-&lt;td style="width: 33.3333%; height: 18px;"&gt;E-Bay (auction)&lt;/td&gt;
+&lt;td style="width: 33.3333%; height: 18px;"&gt;EBay (auction)&lt;/td&gt;
 &lt;td style="width: 33.3333%; height: 18px; text-align: right;"&gt;&amp;pound;258.90&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
@@ -53,22 +53,22 @@
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
 &lt;td style="width: 33.3333%; height: 18px;"&gt;10 USB-A to USB-C cable&amp;nbsp;&lt;/td&gt;
-&lt;td style="width: 33.3333%; height: 18px;"&gt;E-Bay (shop)&lt;/td&gt;
+&lt;td style="width: 33.3333%; height: 18px;"&gt;EBay (shop)&lt;/td&gt;
 &lt;td style="width: 33.3333%; height: 18px; text-align: right;"&gt;&amp;pound;7.89&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
 &lt;td style="width: 33.3333%; height: 18px;"&gt;10 CPU &amp;amp; chipset coolers&lt;/td&gt;
-&lt;td style="width: 33.3333%; height: 18px;"&gt;E-Bay (shop)&lt;/td&gt;
+&lt;td style="width: 33.3333%; height: 18px;"&gt;EBay (shop)&lt;/td&gt;
 &lt;td style="width: 33.3333%; text-align: right; height: 18px;"&gt;&amp;pound;8.04&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style="height: 17px;"&gt;
 &lt;td style="width: 33.3333%; height: 17px;"&gt;1 pack Nylon Cable Ties&lt;/td&gt;
-&lt;td style="width: 33.3333%; height: 17px;"&gt;E-Bay (shop)&lt;/td&gt;
+&lt;td style="width: 33.3333%; height: 17px;"&gt;EBay (shop)&lt;/td&gt;
 &lt;td style="width: 33.3333%; text-align: right; height: 17px;"&gt;&amp;pound;2.49&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
 &lt;td style="width: 33.3333%; height: 18px;"&gt;1 4 meter Electrical cable&lt;/td&gt;
-&lt;td style="width: 33.3333%; height: 18px;"&gt;E-Bay (shop)&lt;/td&gt;
+&lt;td style="width: 33.3333%; height: 18px;"&gt;EBay (shop)&lt;/td&gt;
 &lt;td style="width: 33.3333%; text-align: right; height: 18px;"&gt;&amp;pound;4.94&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr style="height: 18px;"&gt;
@@ -79,15 +79,15 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;This is the detailed item list from AliExpress:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/AliExpress-raspberry-pi-4-cluster_637144527955013887.png" alt="AliExpress-raspberry-pi-4-cluster.png" width="975" height="1948" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;This is the detailed item list from E-Bay:&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-ebay-list_637144544139535355.png" alt="raspberry-pi-4-cluster-ebay-list.png" width="1011" height="2072" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title="AliExpress raspberry pi 4 cluster items" href="/posts/files/fixed/AliExpress-raspberry-pi-4-cluster.png" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/AliExpress-raspberry-pi-4-cluster_637144527955013887.png" alt="AliExpress-raspberry-pi-4-cluster.png" width="975" height="1948" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;This is the detailed item list from EBay:&lt;/p&gt;
+&lt;p&gt;&lt;a title="raspberry pi 4 cluster ebay item list" href="/posts/files/fixed/raspberry-pi-4-cluster-ebay-list.png" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-ebay-list_637144544139535355.png" alt="raspberry-pi-4-cluster-ebay-list.png" width="1011" height="2072" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The trick to have 10 Raspberry Pi 4 (4Gb) at a really good price was to find an auction of 10 brand new of them, if you're not that lucky you can buy them in E-bay currently at around &amp;pound;43 each.&amp;nbsp;&lt;br /&gt;&lt;img src="/Posts/files/10-raspberry-pi-4_637144545157502264.jpg" alt="10-raspberry-pi-4.jpg" width="1500" height="844" /&gt;&lt;/p&gt;
 &lt;p&gt;After mounting all the pieces this is the result:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-front-view_637144547269281931.jpg" alt="raspberry-pi-4-cluster-front-view.jpg" width="1500" height="844" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-lateral-view_637144550279014566.jpg" alt="raspberry-pi-4-cluster-lateral-view.jpg" width="1500" height="844" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-rear-view_637144550279693578.jpg" alt="raspberry-pi-4-cluster-rear-view.jpg" width="1500" height="844" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-top-view_637144550280199870.jpg" alt="raspberry-pi-4-cluster-top-view.jpg" width="1500" height="844" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title="raspberry pi 4 cluster front view" href="/posts/files/fixed/raspberry-pi-4-cluster-front-view.jpg" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-front-view_637144547269281931.jpg" alt="raspberry-pi-4-cluster-front-view.jpg" width="1500" height="844" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title="raspberry pi 4 cluster lateral view" href="/posts/files/fixed/raspberry-pi-4-cluster-lateral-view.jpg" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-lateral-view_637144550279014566.jpg" alt="raspberry-pi-4-cluster-lateral-view.jpg" width="1500" height="844" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title="raspberry pi 4 cluster rear view" href="/posts/files/fixed/raspberry-pi-4-cluster-rear-view.jpg" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-rear-view_637144550279693578.jpg" alt="raspberry-pi-4-cluster-rear-view.jpg" width="1500" height="844" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a title="raspberry pi 4 cluster top view" href="/posts/files/fixed/raspberry-pi-4-cluster-top-view.jpg" target="_blank" rel="noopener"&gt;&lt;img src="/Posts/files/raspberry-pi-4-cluster-top-view_637144550280199870.jpg" alt="raspberry-pi-4-cluster-top-view.jpg" width="1500" height="844" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This was a short post, Just an excuse to start my new 2020 blog with it. I hope you like it, more posts are coming related to projects using this raspberry pi 4 cluster and other interesting stuff.&lt;/p&gt;
 &lt;p&gt;Thank you for reading ;)&lt;/p&gt;</content>
   <ispublished>true</ispublished>

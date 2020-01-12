@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Views\Shared\_Layout.cshtml" />
     <None Include="Views\Shared\_SocialSharing.cshtml" />
     <None Include="wwwroot\css\abovethefold.scss" />
     <None Include="wwwroot\css\belowthefold.scss" />
@@ -44,6 +43,24 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\fonts\karla-v8-latin-regular.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\AliExpress-raspberry-pi-4-cluster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\raspberry-pi-4-cluster-ebay-list.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\raspberry-pi-4-cluster-front-view.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\raspberry-pi-4-cluster-lateral-view.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\raspberry-pi-4-cluster-rear-view.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Posts\files\fixed\raspberry-pi-4-cluster-top-view.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
