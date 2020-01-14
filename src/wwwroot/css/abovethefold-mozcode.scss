@@ -522,3 +522,23 @@ time {
         padding: 2px 7px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .siteheader span{
+        display: none;
+        padding: 0px;
+    }
+    .siteheader span {
+        padding: .8em 1.5em 2em 0em;
+    }
+    .central-panel {
+        top: 152px;
+        width: 123px;
+        left: 34px;
+    }
+    .left-panel {
+        width: 182px;
+        top: 160px;
+        left: -30px;
+    }
+}
