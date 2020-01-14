@@ -544,7 +544,15 @@ time {
         top: 160px;
         left: -30px;
     }
+
+    .sitefooter p {
+        top: 1px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
+    .sitefooter p {
+        font-size: 0.7em;
+        top: 1px;
+    }
 }
