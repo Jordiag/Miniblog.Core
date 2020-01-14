@@ -72,7 +72,7 @@ body {
 }
 
 .header-banner {
-    width: 700px;
+    max-width: 700px;
     height: 90px;
     position: absolute;
     left: 0;
@@ -162,7 +162,7 @@ body {
 
 .separator {
     margin: auto;
-    width: 700px;
+    max-width: 700px;
     height: 1px;
     background-color: #cccccc;
 }
@@ -523,22 +523,28 @@ time {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .siteheader span{
+@media only screen and (max-width: 640px) {
+    .siteheader span {
         display: none;
         padding: 0px;
     }
+
     .siteheader span {
         padding: .8em 1.5em 2em 0em;
     }
+
     .central-panel {
-        top: 152px;
+        top: 102px;
         width: 123px;
         left: 34px;
     }
+
     .left-panel {
         width: 182px;
         top: 160px;
         left: -30px;
     }
+}
+
+@media only screen and (max-width: 360px) {
 }
