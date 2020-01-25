@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <post>
   <title>RPi 4 K8s multi-master cluster using Ubuntu and Kubespray</title>
-  <slug>rasberry-4-pi-kubernetes-cluster-multi-master-ubuntu-kubespray</slug>
+  <slug>rasberry-pi-4-kubernetes-cluster-multi-master-ubuntu-kubespray</slug>
   <pubDate>2020-01-25T14:14:46.795Z</pubDate>
-  <lastModified>2020-01-25T15:54:10.562Z</lastModified>
+  <lastModified>2020-01-25T16:06:40.852Z</lastModified>
   <excerpt>Create a high availability raspberry pi 4 kubernetes cluster based on ubuntu and deployed using kubespray.</excerpt>
   <content>&lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;
 &lt;div style="box-sizing: border-box; background: transparent; margin-bottom: 0px; margin-top: 14px;"&gt;
