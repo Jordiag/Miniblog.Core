@@ -4,7 +4,7 @@
     {
         public string Owner { get; set; } = "Jordi AG";
         public int PostsPerPage { get; set; } = 2;
-        public int CommentsCloseAfterDays { get; set; } = 10;
+        public int CommentsCloseAfterDays { get; set; } = 30;
         public string Description { get; set; } = "";
     }
 }
