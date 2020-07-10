@@ -92,10 +92,10 @@
     &lt;p&gt;&lt;img src="/Posts/files/hadoop-hdfs-site-config.jpg" alt="hadoop hdfs site config raspberry pi" width="678" height="635" /&gt;&lt;/p&gt;
     &lt;p&gt;&lt;br /&gt;17. Add the configuration section to mapred&lt;span style="color: #333842; font-family: monospace; font-size: 17.64px;"&gt;-site hadoop file&lt;/span&gt;&lt;/p&gt;
     &lt;pre class="language-markup" style="word-spacing: 0px;"&gt;&lt;code&gt;nano $HADOOP_HOME/etc/hadoop/mapred-site.xml&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;&lt;img style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;" src="http://development.mozcode.com/Posts/files/hadoop-hdfs-mapred-site.jpg" alt="hadoop hdfs mapred config raspberry pi" width="678" height="302" /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;" src="/Posts/files/hadoop-hdfs-mapred-site.jpg" alt="hadoop hdfs mapred config raspberry pi" width="678" height="302" /&gt;&lt;/p&gt;
     &lt;p&gt;&lt;br /&gt;18. Add the configuration section to yarn-site hadoop file&lt;/p&gt;
     &lt;pre class="language-markup" style="word-spacing: 0px;"&gt;&lt;code&gt;nano $HADOOP_HOME/etc/hadoop/yarn-site.xml&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;&lt;img src="http://development.mozcode.com/Posts/files/hadoop-hdfs-yarn-site.jpg" alt="hadoop hdfs mapred config raspberry pi" width="678" height="481" /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src="/Posts/files/hadoop-hdfs-yarn-site.jpg" alt="hadoop hdfs mapred config raspberry pi" width="678" height="481" /&gt;&lt;/p&gt;
     &lt;p&gt;&lt;span style="color: #333842; font-family: monospace;"&gt;&lt;span style="font-size: 17.64px;"&gt;&lt;br /&gt;19&lt;/span&gt;&lt;/span&gt;&lt;span style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;"&gt;. After all is configured and the SSD is partitioned and mounted, we can format the HDFS (&lt;strong&gt;only the master&lt;/strong&gt;)&lt;/span&gt;&lt;/p&gt;
     &lt;pre class="language-markup"&gt;&lt;code&gt;/opt/hadoop/bin/hdfs namenode -format -force&lt;/code&gt;&lt;/pre&gt;
     &lt;p&gt;&lt;br /&gt;20. Let's start HDFS filesystem and do some operations to check everything works fine&lt;/p&gt;
